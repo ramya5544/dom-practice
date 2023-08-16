@@ -7,5 +7,8 @@ function setTime(){
     let sec=date.getSeconds();
     timer.innerText=`${hour} : ${min} :${sec}`;
 }setInterval(setTime,1000);
+setTimeout(() =>{
+    alert("you have wasted your time");
+},1000 *60 )
 
 
